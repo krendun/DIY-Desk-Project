@@ -1,0 +1,53 @@
+# =========================
+# OS / Editor Noise
+# =========================
+.DS_Store
+Thumbs.db
+
+# VS Code / IDE
+.vscode/
+.idea/
+
+# =========================
+# Temporary / Scratch Files
+# =========================
+*.tmp
+*.log
+*.bak
+*.swp
+*~
+
+# =========================
+# Build / Export Artifacts
+# =========================
+# (Keep PDFs and diagrams intentionally)
+# Uncomment only if you later generate throwaway exports
+# /exports/
+# /dist/
+
+# =========================
+# Receipts & Sensitive Data
+# =========================
+# Ignore raw scans/photos that may contain personal info
+# Keep .gitkeep so folder structure remains
+receipts/**/*.jpg
+receipts/**/*.jpeg
+receipts/**/*.png
+receipts/**/*.pdf
+
+!receipts/**/.gitkeep
+
+# =========================
+# Large Media (Optional)
+# =========================
+# If you later add very large photos/videos
+# *.mp4
+# *.mov
+# *.heic
+
+# =========================
+# Safety: Never Ignore These
+# =========================
+!*.md
+!diagrams/**
+!binder/**
