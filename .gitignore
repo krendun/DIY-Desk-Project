@@ -51,3 +51,6 @@ receipts/**/*.pdf
 !*.md
 !diagrams/**
 !binder/**
+
+# git rm --cached path/to/file
+# git commit -m "Remove file from tracking"
